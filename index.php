@@ -45,11 +45,14 @@
 		</ol>
 		<h2>Ineraction</h2>
 		<ol>
-			<li> User needs to post images of products</li>
-			<li>	Describe product and list materials used to make bibs
-			</li>
-			<li>Price items</li>
-			<li>Make options for payment and delivery</li>
+			<li>Amber goes to esty</li>
+			<li>browser loads esty home/login page</li>
+			<li>Amber creates a profile page for her store.</li>
+			<li>Amber creates a user Id and password.</li>
+			<li>Amber uploads picture of her product.</li>
+			<li>Amber creates a description of her products along with the prices.</li>
+			<li>Amber creates options for method of payment and delivery.</li>
+			<li>Amber creates a hyperlink to take user page to a profile page telling us about herself.</li>
 		</ol>
 		<h2>Conceptual model</h2>
 		<ul>
