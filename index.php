@@ -35,8 +35,8 @@
 
 		<h2>Technology</h2>
 		<ol>
-			<li>Mostly uses her I phone for everything</li>
-			<li>Has a home computer but harly ever uses it</li>
+			<li>Mostly uses her iPhone 7 with iOS 10 for everything</li>
+			<li>Amber has a Dell Inspiron 3263 All-In-One Computer, Touch Screen, Windows 10, she does'nt use it much</li>
 
 		</ol>
 		<h2>Use case</h2>
