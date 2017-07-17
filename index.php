@@ -52,22 +52,18 @@
 			<li>Make options for payment and delivery</li>
 		</ol>
 		<h2>Conceptual model</h2>
-		<ol>
-			<li>profile</li>
+		<ul>
+			<li><strong>Profile</strong></li>
 			<li>profield (primary key)</li>
 			<li>profileActivationToken (account verification)</li>
 			<li>profileAtHandle</li>
 			<li>profileHash (account password)</li>
 			<li>profilePhone</li>
-			<li>profileSalt (account password)</li>
-			<li>merchandise</li>
+			<li>profileSalt (account password)</li></ul>
+		<ul>
+			<li><strong>Merchandise</strong></li>
 			<li>merchandise name (primary key)</li>
-			<li>merchandisecontent</li>
-			<li>like</li>
-			<li>likemerchandise(foreign key)</li>
-			<li>purchasemerchandise</li>
-			<li>deliverymethod</li>
-		</ol>
+			<li>merchandisecontent</li></ul>
 		<h2>Relations</h2>
 		<ol>
 			<li>Multiple users can comment on one profile</li>
