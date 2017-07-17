@@ -52,11 +52,20 @@
 			<li>Price items</li>
 			<li>Make options for payment and delivery</li>
 		</ol>
-		<h2>Conceptual</h2>
+		<h2>Conceptual model</h2>
+		<ol>
+			<li>profield (primary key)</li>
+			<li>profileActivationToken (account verification)</li>
+			<li>profileAtHandle</li>
+			<li>profileHash (account password)</li>
+			<li>profilePhone</li>
+			<li>profileSalt (account password)</li>
+		</ol>
+		<h2>Relations</h2>
 		<ol>
 			<li>Multiple users can comment on one profile</li>
 			<li>Multiple users can oreder multiple bibs on one profile</li>
-		<li>One user can choose one type of payment and delivery</li>
+		<li>Muliple user can choose one type of payment and delivery</li>
 		</ol>
 		<p>	Scenario
 			Saturday midmorning Amber is doing the weekly family grocery shopping, she receives an alert on her phone about
