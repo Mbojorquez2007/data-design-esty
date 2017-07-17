@@ -29,7 +29,7 @@
 		<h2>Purpose</h2>
 		<ul>
 			<li>Make extra money
-			<li>Get her product to be seen by new peoplw</li>
+			<li>Get her product to be seen by new people</li>
 			<li>Start a fab</li>
 			<li>make an inexpensive cute product for babies</li>
 		</ul>
@@ -58,7 +58,7 @@
 			<li>Multiple users can oreder multiple bibs on one profile</li>
 		<li>One user can choose one type of payment and delivery</li>
 		</ol>
-		<h2>	Scenarios
+		<h2>	Scenario
 			Saturday midmorning Amber is doing the weekly family grocery shopping, she receives an alert on her phone about
 			a purchases made on her esty site. She is absolutely thrilled that she can execute selling her product online
 			without it interfering with her daily activities
