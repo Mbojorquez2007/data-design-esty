@@ -40,7 +40,24 @@
 			<li>Has a home computer but harly ever uses it</li>
 
 		</ol>
-
+		<h2>Use case</h2>
+		<ol>
+			<li>Amber will use this website to make extra money and get the attention of a new audience</li>
+		</ol>
+		<h2>Ineraction</h2>
+		<ol>
+			<li> User needs to post images of products</li>
+			<li>	Describe product and list materials used to make bibs
+			</li>
+			<li>Price items</li>
+			<li>Make options for payment and delivery</li>
+		</ol>
+		<h2>Conceptual</h2>
+		<ol>
+			<li>Multiple users can comment on one profile</li>
+			<li>Multiple users can oreder multiple bibs on one profile</li>
+		<li>One user can choose one type of payment and delivery</li>
+		</ol>
 		<h2>	Scenarios
 			Saturday midmorning Amber is doing the weekly family grocery shopping, she receives an alert on her phone about
 			a purchases made on her esty site. She is absolutely thrilled that she can execute selling her product online
