@@ -58,11 +58,11 @@
 			<li>Multiple users can oreder multiple bibs on one profile</li>
 		<li>One user can choose one type of payment and delivery</li>
 		</ol>
-		<h2>	Scenario
+		<p>	Scenario
 			Saturday midmorning Amber is doing the weekly family grocery shopping, she receives an alert on her phone about
 			a purchases made on her esty site. She is absolutely thrilled that she can execute selling her product online
 			without it interfering with her daily activities
 
-		</h2>
+		</p>
 		<img src="" alt="">
 
