@@ -48,7 +48,7 @@
 			<li>Amber goes to esty</li>
 			<li>browser loads esty home/login page</li>
 			<li>Amber creates a profile page for her store.</li>
-			<li>Amber creates a user Id and password.</li>
+			<li>Amber creates a user account.</li>
 			<li>Amber uploads picture of her product.</li>
 			<li>Amber creates a description of her products along with the prices.</li>
 			<li>Amber creates options for method of payment and delivery.</li>
@@ -66,7 +66,16 @@
 		<ul>
 			<li><strong>Merchandise</strong></li>
 			<li>merchandise name (primary key)</li>
-			<li>merchandisecontent</li></ul>
+			<li>merchandise content</li>
+			<li>merchandise price</li>
+			<li>merchandise description </li>
+			<li>who made it</li>
+			<li>what it is</li>
+			<li>when it was made</li>
+			<li>chose a category</li>
+			<li>list material in your item</li>
+			<li>variations</li>
+			<li>shipping options</li></ul>
 		<h2>Relations</h2>
 		<ol>
 			<li>Multiple users can comment on one profile</li>
