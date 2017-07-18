@@ -5,7 +5,7 @@
 	<body>
 		<h1>Amber</h1>
 		<img src="epic/image/bibs.jpg"><img src="epic/image/bibs-boys.jpg"><p>Amber is 26 years old. She is a personal assistant for a real-estate agent. She has been married to her
-			husband Brain for 5 years and they have a 3 year old daughter named Lindsey. She mostly uses her I phone for all
+			husband Brain for 5 years and they have a 3 year old daughter named Lindsey. She mostly uses her i phone for all
 			her technical  needs. Amber makes custom baby bibs on the weekends and in her free time. She started selling
 			bibs to her friends and family and thinks she could make a bigger profit if she could get more people to see her
 			product.</p>
@@ -64,12 +64,11 @@
 			<li>profilePhone</li>
 			<li>profileSalt (account password)</li></ul>
 		<ul>
-			<li><strong>Merchandise</strong></li>
+			<li><strong>varibles</strong></li>
 			<li>merchandise name (primary key)</li>
 			<li>merchandise content</li>
 			<li>merchandise price</li>
-			<li>merchandise description </li>
-			<li>who made it</li>
+			<li>item description</li>
 			<li>what it is</li>
 			<li>when it was made</li>
 			<li>chose a category</li>
