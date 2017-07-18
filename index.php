@@ -86,6 +86,6 @@
 			without it interfering with her daily activities
 
 		</p>
-		<img src="epic/image/diagram2.jpg">
+		<img src="epic/image/Untitled Diagram.jpg">
 
 `
