@@ -57,7 +57,7 @@
 		<h2>Conceptual model</h2>
 		<ul>
 			<li><strong>Profile</strong></li>
-			<li>profield (primary key)</li>
+			<li>profileId (primary key)</li>
 			<li>profileActivationToken (account verification)</li>
 			<li>profileAtHandle</li>
 			<li>profileHash (account password)</li>
@@ -87,5 +87,5 @@
 			without it interfering with her daily activities
 
 		</p>
-		<img src="" alt="">
+		<img src="epic/image/Copy of diagram1.jpg">
 
