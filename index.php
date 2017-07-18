@@ -64,17 +64,16 @@
 			<li>profilePhone</li>
 			<li>profileSalt (account password)</li></ul>
 		<ul>
-			<li><strong>varibles</strong></li>
-			<li>merchandise name (primary key)</li>
-			<li>merchandise content</li>
-			<li>merchandise price</li>
-			<li>item description</li>
-			<li>what it is</li>
-			<li>when it was made</li>
-			<li>chose a category</li>
+			<li><strong>item</strong></li>
+			<li>itemId</li>
+			<li>itemContent</li>
+			<li>itemPrice</li>
+			<li>itemDescription</li>
+			<li>when item was made</li>
+			<li>choose a category</li>
 			<li>list material in your item</li>
 			<li>variations</li>
-			<li>shipping options</li></ul>
+			<li>shippingOptions</li></ul>
 		<h2>Relations</h2>
 		<ol>
 			<li>Multiple users can comment on one profile</li>
