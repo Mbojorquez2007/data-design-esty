@@ -65,14 +65,10 @@
 			<li>profileSalt (account password)</li></ul>
 		<ul>
 			<li><strong>item</strong></li>
+			<li>ProfileId</li>
 			<li>itemId</li>
 			<li>itemContent</li>
 			<li>itemPrice</li>
-			<li>itemDescription</li>
-			<li>when item was made</li>
-			<li>choose a category</li>
-			<li>list material in your item</li>
-			<li>variations</li>
 			<li>shippingOptions</li></ul>
 		<h2>Relations</h2>
 		<ol>
