@@ -11,131 +11,47 @@ require_once("autoload.php");
  * more features in a profile.
  * @author Michelle Allen <mbojorquez4@cnm.edu>
  **/
-class profile {
+class Profile {
 	/**
-	 * id for this profile; this is the primary key
+	 * id for this Profile; this is the primary key
 	 * @var int $profileId
 	 **/
 	private $profileId;
 	/**
-	 * id for the item that belongs to this profile; this is a foreign key
-	 * @var int $itemId
-	 **/
-	private $itemId;
-	/**
-	 * content of this profileActvationToken
-	 * @var string $profileActvationToken
+	 * activation token for the User who owns this Profile; this is a foreign key
+	 * @var string $profileActivationToken
 	 **/
 	private $profileActivationToken;
 	/**
-	 * content of itemProfileId
-	 * @var string $itemProfileId
+	 * handle of profile
+	 * @var string $profileAtHandle
 	 **/
-	private $itemProfileId;
-
+	private $profileAtHandle;
+	/**
+	 * profileEmail
+	 * @var string $profileEmail
+	 **/
+	private $profileEmail;
+	/**
+	 * hash for profile
+	 * @var string $profilehash
+	 **/
+	private $profilehash;
+	/**
+	 * Phone number for profile
+	 * @var string $profilephone
+	 **/
+	private $profilephone;
+	/**
+	 * salt for profile
+	 * @var string $profilesalt
+	 **/
+	private $profilesalt;
 	/**
 	 * accessor method for profileId
 	 *
 	 * @return int value of profileId
 	 **/
-	public function getprofileId() {
-			return($this->profileId);
-		}
-
-	/**
-	 * mutator method for itemId
-	 *
-	 * @param int/null $newitemId new value of Id
-	 * @throws UnexpectedValueException if $newitemId is not an integer
-	 **/
-	public function setprofileId($newitemId)
-		// verify the item id is valid
-		$newItemId = filter_var($newItemId, FILTER_VALIDATE_INT);
-		if($newItemId === false) {
-			throw(new UnexpectedValueException("item id is not a valid integer"));
-		}
-
-// convert and store the item id
-$this->ItemId = intval($newItemId);
-}
-
-/**
- * accessor method for seller id
- *
- * @return int value of seller id
- **/
-public function getSellerId() {
-	return($this->SellerId);
-}
-
-/**
- * mutator method for seller id
- *
- * @param int $newSellerId new value of item id
- * @throws UnexpectedValueException if $newSellerId is not an integer
- **/
-public function setSellerId($newSellerId) {
-	// verify the seller id is valid
-	$newSellerId = filter_var($newSellerId, FILTER_VALIDATE_INT);
-	if($newSellerId === false) {
-		throw(new UnexpectedValueException("seller id is not a valid integer"));
+	public function getProfileId(?int $newprofileID) {
+		return ($this->profileId);
 	}
-
-	// convert and store the item id
-	$this->sellerId = intval($newsellerId);
-}
-
-/**
- * accessor method for item description
- *
- * @return string value of item description
-
- **/
-public function getItemDescription() {
-	return($this->itemDescription);
-}
-
-/**
- * mutator method for item description
- *
- * @param string $newItemDescription new value of item description
- * @throws UnexpectedValueException if $newItemDescrption is not valid
- **/
-public function setItemDescription($newItemDescription) {
-	// verify the item description is valid
-	$newItemDescription = filter_var($newItemDescription, FILTER_SANITIZE_STRING);
-	if($newItemDescription === false) {
-		throw(new UnexpectedValueException("item description is not a valid string"));
-	}
-
-	// store the item description
-	$this->itemDescrption = $newItemDescription;
-}
-
-/**
- * accessor method for item price
- *
- * @return string value of item price
- **/
-public function getItemPrice() {
-	return($this->ItemPrice);
-}
-
-/**
- * mutator method for item price
- *
- * @param string $newItemPrice new value of item price
- * @throws UnexpectedValueException if $item price is not valid
- **/
-public function setItemPrice($newItemPrice) {
-	// verify the item price is valid
-	$newItemPrice = filter_var($newItemPrice, FILTER_SANITIZE_STRING);
-	if($itemPrice === false) {
-		throw(new UnexpectedValueException("item price is not a valid string"));
-	}
-
-	// store the item price
-	$this->itemprice = $newitemPrice;
-}
-}
-
