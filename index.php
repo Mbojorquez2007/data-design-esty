@@ -43,7 +43,7 @@
 		<ol>
 			<li>Amber will use this website to make extra money and get the attention of a new audience</li>
 		</ol>
-		<h2>Ineraction</h2>
+		<h2>Ineraction Flow</h2>
 		<ol>
 			<li>Amber goes to esty</li>
 			<li>browser loads esty home/login page</li>
